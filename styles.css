@@ -1,7 +1,7 @@
 body {
     margin: auto;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'SF Pro Display';
     width: 1300px;
 }
 
@@ -56,3 +56,55 @@ body {
     padding-right: 50px;
 }
 
+/* titulos header */
+.mini-text{
+    font-size: x-small;   
+}
+.main-title{
+    font-size:90px;
+    margin: 0%;
+}
+
+/* texto header */
+
+.parrafo{
+    max-width: 500px;
+    text-align: justify;
+}
+
+/* DERNIÈRE COLLECTION */
+
+.title2{
+    font-size: 80px;
+    max-width: 10px;
+}
+
+.main{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0;
+ 
+}
+
+.text-image{
+    max-width: 200px;
+    font-size:  small;
+    
+}
+
+/* SHOWROOM */
+
+.div-showroom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.parrafo2{
+    max-width: 178px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align:justify;
+}

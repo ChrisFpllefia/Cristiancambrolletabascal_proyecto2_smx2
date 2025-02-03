@@ -56,21 +56,19 @@ body {
     padding-right: 50px;
 }
 
-/* titulos header */
+/* L'EXPERIENCE EXTRAORIDINAIRE */
 .mini-text{
     font-size: x-small;   
 }
 .main-title{
-    font-size:90px;
+    font-size:80px;
     margin: 0%;
 }
-
-/* texto header */
-
 .parrafo{
     max-width: 500px;
     text-align: justify;
 }
+
 
 /* DERNIÈRE COLLECTION */
 
@@ -93,6 +91,8 @@ body {
     
 }
 
+
+
 /* SHOWROOM */
 
 .div-showroom{
@@ -102,9 +102,29 @@ body {
     flex-direction: column;
 }
 
+.palo{
+    font-size: 23px;
+}
+
 .parrafo2{
     max-width: 178px;
     font-size: 12px;
     font-weight: bold;
     text-align:justify;
 }
+
+/* BOTÓN */
+button{
+    border-radius: 23px;
+    border: solid 1px black;
+}
+
+/* BOUTIQUE */
+
+.section{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0; 
+}
+

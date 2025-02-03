@@ -1,0 +1,58 @@
+body {
+    margin: auto;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    width: 1300px;
+}
+
+/* Navegador */
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    font-weight: bolder;
+    border: solid black 2px;
+    transform: scale(1.2);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    margin-left: 70px;
+}
+
+.nav-ul{
+    list-style: none;
+    margin: auto;
+    padding: 10px;
+    transform: scale(.8);
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.icon-login{
+    display: flex;
+    gap: 20px;
+    scale: 1.2;
+}
+
+.items-list{
+    padding: 30px;
+    
+}
+
+.div-ul{
+    display: flex;
+    gap: 20px;
+    padding-right: 50px;
+}
+

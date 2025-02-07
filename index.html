@@ -8,6 +8,8 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
       rel="stylesheet"/>
+      <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+                
   </head>
   <body>
     
@@ -51,17 +53,25 @@
         <h1 class="main-title">L'EXPERIENCE EXTRAORIDINAIRE</h1>
       </div>
 
-      <div class="container2"> 
+      <div class="container-div2"> 
       <p class="parrafo">Notre journaliste Jean-Pierre Gagick essaie le tout dernier modèle de Porsche : la 911 S/T. Et pour trouver l’origine du nom "S/T", il faut remonter à la création originelle de 1969. À cette époque, le constructeur souhaite créer une version allégée de la 911 S pour la compétition. Face à ce succès inattendu, Porsche prend donc la décision de créer son modèle homologué pour la route.</p>
       
-      <button>Découvrir</button>
-      <label for="file">1/6:</label>
-      <progress id="1/6" max="100" value="70">70%</progress>
+      
+      <div class="div-button-barra">
+        
+        <button class="first-button">DÉCOUVRIR</button>
+
+        <div class="sub-barra-progress"><label for="file">1/6:</label>
+          <progress class="first-barr" id="1/6" max="100" value="70">70%</progress></div>
+        
+      </div>
+      
       
     </div>
 
-    <img src="multimedia/Car.png.png" alt="">
+    
   </header>
+  <img class="car-image" src="multimedia/Car.png.png" alt="">
   <hr>
 
   <h1 class="title2">DERNIÈRE COLLECTION</h1>
@@ -70,24 +80,36 @@
 
     <div class="card">
         <img src="multimedia/car2.png" alt="Imagen 1">
-        <p class="text-image">PORCHE 911 GT3 <br>
-          BODY KIT CARBON</p>
+        <div class="marca-descripcion">
+          <p class="marca-car">PORCHE 911 GT3</p>
+          <p class="descripcion">BODY KIT CARBON</p>
+        </div>
+        
         
     </div>
 
     <div class="card">
         <img src="multimedia/car3.png" alt="Imagen 2">
-        <p class="text-image">PORCHE CAYENNE PRESENTATION</p>
+        <div class="marca-descripcion"> 
+          <p class="marca-car">PORCHE CAYENNE</p>
+          <p class="descripcion">PRESENTATION</p></div>
     </div>
 
     <div class="card">
         <img src="multimedia/car4.png" alt="Imagen 3">
-        <p class="text-image">PORCHE 911.3.2 <br> BODY KIT CARBON</p>
+        <div class="marca-descripcion">
+          <p class="marca-car">PORCHE 911 3.2</p>
+          <p class="descripcion">BODY KIT CARBON</p></div>
+        
     </div>
 
     <div class="card">
       <img src="multimedia/car5.png" alt="Imagen 4">
-      <p class="text-image">PORCHE 988 SPYDER <br> SHOWCASE</p>
+      <div class="marca-descripcion">
+        <p class="marca-car">PORCHE 988 SPYDER</p>
+        <p class="descripcion">SHOWCASE</p>
+      </div>
+      
   </div>
 </main>
 
@@ -97,7 +119,8 @@
   <p class="parrafo2">LAISSER VOUS TENTER PAR UN UNIVERS DE VITESSE PUR</p>
   <p class="palo">|</p>
   <img src="multimedia/SHOWROOM.png" alt="">
-  <button>DÉCOUVRIR</button>
+  
+  <div class="sub-class-second-button"><button class="second-button">DÉCOUVRIR</button></div>
 </div>
     
 <hr>

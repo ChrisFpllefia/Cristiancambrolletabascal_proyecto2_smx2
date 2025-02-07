@@ -1,7 +1,7 @@
 body {
     margin: auto;
     box-sizing: border-box;
-    font-family: 'SF Pro Display';
+    font-family: 'SF Pro Display', sans-serif;                                       
     width: 1300px;
 }
 
@@ -65,10 +65,46 @@ body {
     margin: 0%;
 }
 .parrafo{
-    max-width: 500px;
+    max-width: 600px;
     text-align: justify;
 }
 
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-button{
+    padding: 10px 25px;
+    background-color: white;
+    font-weight: bold;
+}
+
+.first-barr{
+    height: 5px;
+
+}
+
+.div-button-barra{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.sub-barra-progress{
+    display: flex;
+    flex-direction: column;
+}
+
+.car-image{
+    padding-top: 20px;
+    padding-bottom:40px;
+}
+
+label{
+    font-weight: bold;
+}
 
 /* DERNIÈRE COLLECTION */
 
@@ -91,7 +127,19 @@ body {
     
 }
 
+.trozo-texto1{
+    color: lightgrey;
+}
 
+.marca-descripcion{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.marca-car, .descripcion {
+    margin: 0;
+}
 
 /* SHOWROOM */
 
@@ -112,6 +160,19 @@ body {
     font-weight: bold;
     text-align:justify;
 }
+
+.second-button{
+    padding: 10px 25px;
+    background-color: white;
+    font-weight: bold;
+    
+}
+
+.sub-class-second-button{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
 
 /* BOTÓN */
 button{

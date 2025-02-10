@@ -16,10 +16,10 @@ body {
 .logo{
     font-weight: bolder;
     border: solid black 2px;
-    transform: scale(1.2);
+    transform: scaleY(1.2);
     font-family: 'Times New Roman', Times, serif;
-    margin: 20px;
-    margin-left: 70px;
+    margin: 0;
+    
 }
 
 .nav-ul{
@@ -53,36 +53,41 @@ body {
 .div-ul{
     display: flex;
     gap: 20px;
-    padding-right: 50px;
+    padding-right: 0px;
 }
 
 /* L'EXPERIENCE EXTRAORIDINAIRE */
 .mini-text{
-    font-size: x-small;   
+    font-size: 15px;   
+    
 }
 .main-title{
     font-size:80px;
-    margin: 0%;
+    margin: 0;
 }
 .parrafo{
-    max-width: 600px;
+    max-width: 450px;
     text-align: justify;
+    font-size: .9em;
+    padding-bottom: 10px;
 }
 
 .container{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .first-button{
-    padding: 10px 25px;
+    padding: 8px 25px;
     background-color: white;
     font-weight: bold;
 }
 
 .first-barr{
-    height: 5px;
+    height: 4px;
+    
 
 }
 
@@ -104,6 +109,7 @@ body {
 
 label{
     font-weight: bold;
+    font-size: .8em ;
 }
 
 /* DERNIÈRE COLLECTION */
@@ -139,6 +145,10 @@ label{
 
 .marca-car, .descripcion {
     margin: 0;
+}
+
+.marca-car{
+    color: gainsboro;
 }
 
 /* SHOWROOM */
@@ -184,8 +194,25 @@ button{
 
 .section{
     display:flex;
-    justify-content: space-around;
+    gap: 50px;
     align-items: center;
-    margin-bottom: 0; 
+    
+    
+}
+.veste{
+    font-size: 15px;
+    
+}
+
+.montres{
+    font-size: 15px;
+}
+
+.e-bikes{
+    font-size: 15px;
+}
+
+.chaises{
+    font-size: 15px;
 }
 

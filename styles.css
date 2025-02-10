@@ -2,12 +2,12 @@ body {
     margin: auto;
     box-sizing: border-box;
     font-family: 'SF Pro Display', sans-serif;                                       
-    width: 1300px;
+    width: 1312px;
 }
 
 @font-face{
     font-family: 'bagn-pro-regular';
-    src: url(bahn-pro-regular.ttf);
+    src: url(fuentes/bahn-pro-regular.ttf);
 }
 
 /* Navegador */
@@ -19,10 +19,10 @@ body {
 }
 
 .logo{
-    border: solid black 2px;
+    border: solid black 3px;
     font-family:'bagn-pro-regular';
     margin: 0;
-    font-size: 20px;
+    font-size: 30px;
     width: 100px;
     text-align: center;
     
@@ -33,7 +33,7 @@ body {
     margin: auto;
     padding: 10px;
     transform: scale(.8);
-    font-weight: bold;
+    font-weight: 400;
     display: flex;
     justify-content: space-around;
     width: 50%;
@@ -53,6 +53,7 @@ body {
 
 .items-list{
     padding: 30px;
+    font-size: 20px;
     
 }
 
@@ -92,9 +93,9 @@ body {
     font-weight: bold;
 }
 
-.first-barr {
-  height: 6px;
-
+.first-barr{
+  height: 4px;
+  
 }
 
 
@@ -180,6 +181,7 @@ progress{
     font-size: 12px;
     font-weight: bold;
     text-align:justify;
+    margin-top: 40px;
 }
 
 .second-button{
@@ -258,8 +260,6 @@ button{
    
 }
 
-
-
 .italic{
     font-style: italic;
     margin: 0;
@@ -268,7 +268,9 @@ button{
 
 .text-plus{
    margin-top:.5px;
+   font-weight: 400;
 }
 
+/* Footer */
 
 

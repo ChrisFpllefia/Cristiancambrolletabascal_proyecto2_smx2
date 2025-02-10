@@ -219,8 +219,27 @@ button{
 .div-canon{
     display: flex;
     justify-content: end;
+    margin: 0;
 }
 
+
+.circle{
+   border: solid black 1px;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 180px;
+   width: 180px;
+   margin: 70px;
+   
+}
+
+.image-circle{
+    max-width: 100px;
+    text-align: center;
+    font-weight: 300;
+}
 
 .image-multimedia{
     width: 700px;
@@ -229,8 +248,7 @@ button{
 .grampa-french{
    display: flex;
    justify-content:right;
-  
-    
+
 }
 
 

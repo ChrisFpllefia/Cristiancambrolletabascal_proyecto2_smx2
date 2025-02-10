@@ -216,3 +216,21 @@ button{
     font-size: 15px;
 }
 
+.div-canon{
+    display: flex;
+    justify-content: end;
+}
+
+
+.image-multimedia{
+    width: 700px;
+    height: 300px;
+}
+.grampa-french{
+   display: flex;
+   justify-content:right;
+  
+    
+}
+
+

@@ -241,14 +241,13 @@ button{
     font-weight: 300;
 }
 
-.image-multimedia{
+.image-multimedia{ 
     width: 700px;
     height: 300px;
 }
 .grampa-french{
    display: flex;
    justify-content:right;
-
 }
 
 

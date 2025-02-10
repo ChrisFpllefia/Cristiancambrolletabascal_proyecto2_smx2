@@ -22,7 +22,7 @@ body {
     border: solid black 2px;
     font-family:'bagn-pro-regular';
     margin: 0;
-    font-size: 30px;
+    font-size: 20px;
     width: 100px;
     text-align: center;
     
@@ -63,6 +63,7 @@ body {
 }
 
 /* L'EXPERIENCE EXTRAORIDINAIRE */
+
 .mini-text{
     font-size: 15px;   
     
@@ -91,12 +92,12 @@ body {
     font-weight: bold;
 }
 
-.first-barr{
-    height: 4px;
-    
+.first-barr {
+  height: 6px;
 
 }
- 
+
+
 .div-button-barra{
     display: flex;
     align-items:center;
@@ -116,6 +117,10 @@ body {
 label{
     font-weight: bold;
     font-size: .8em ;
+}
+
+progress{
+    color:#000
 }
 
 /* DERNIÈRE COLLECTION */
@@ -202,24 +207,15 @@ button{
     display:flex;
     gap: 30px;
     align-items: center;
+    margin-bottom: 50px;
     
     
 }
-.veste{
-    font-size: 15px;
-    
-}
 
-.montres{
-    font-size: 15px;
-}
-
-.e-bikes{
-    font-size: 15px;
-}
-
-.chaises{
-    font-size: 15px;
+.common{
+    font-size: 13px;
+    width: 90%;
+    text-align: justify;
 }
 
 .div-canon{
@@ -250,6 +246,8 @@ button{
 .image-multimedia{ 
     width: 700px;
     height: 300px;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .grampa-french{
@@ -264,6 +262,12 @@ button{
 
 .italic{
     font-style: italic;
+    margin: 0;
+    margin-bottom: 140px;
+}
+
+.text-plus{
+   margin-top:.5px;
 }
 
 

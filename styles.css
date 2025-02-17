@@ -273,4 +273,97 @@ button{
 
 /* Footer */
 
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
 
+.footer_first{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.div-h2-footer{
+    font-size: 4em;
+    width: 80%;
+    font-weight: 280;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    margin: 0;
+      
+}
+
+.footer-input{
+    margin: 20px 0;
+    padding: 10px;
+    padding-left: 0;
+    color:black; 
+    width: 30%;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: 0;
+    
+}
+
+#footer-input-icon{
+    position: relative;
+    right: 15px;
+}
+
+.div-footer2{
+    margin: 50px 0;
+    gap: 40px;
+    display: flex;
+      
+}
+
+
+.part2-footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.sub-part2-footer{
+    display: flex;
+    gap: 40px;
+}
+
+.menu-footer{
+    width: 100px;
+}
+
+.strong-title {
+    margin-bottom: 60px;
+}
+
+.boutiques-strong{
+    margin-bottom: 60px;
+
+}
+.ul-menu, .list-box{
+    padding: 0;
+}
+
+.ul-items, .list-items{
+    width: 100px;
+    list-style: none;
+    padding: 10px 0px;
+    
+}
+
+.botton-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    width: 200px;
+   
+    
+    
+}
+
+.boton-one{
+    margin-top: 50px;
+}
